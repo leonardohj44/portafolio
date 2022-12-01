@@ -316,7 +316,7 @@ span+span {
 .home_text-2 {
     font-family: 'PT Sans';
     color: var(--beaver);
-    font-size: 3.2rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -354,7 +354,7 @@ span+span {
 
 .container_parrafo-info {
     display: none;
-    font-family:monospace;
+    font-family:arial;
     font-size: 30%;
 }
 
@@ -441,8 +441,6 @@ span+span {
 
 .image_sobreMi {
     width: 70%;
-
-
 }
 
 /* Habilidades */
@@ -461,15 +459,6 @@ span+span {
     font-size: 2.4rem;
     letter-spacing: .1rem;
     padding: 6rem 0 5rem 0;
-}
-
-.puntos1-habilidades,
-.puntos2-habilidades {
-    display: none;
-}
-
-.container_fondoPuntos--habilidades img {
-    display: none;
 }
 
 .cards_container--habilidades {
@@ -494,13 +483,79 @@ span+span {
     height: 14rem;
 }
 
+.cards--habilidades img {
+    margin-top: .7rem;
+    width: 9rem;
+}
+
+.cards--habilidades p {
+    color: var(--white);
+    font-family: 'Cooper Hewitt';
+    letter-spacing: .1rem;
+    font-size: 1.4rem;
+    margin-bottom: .7rem;
+}
+
+
+/* Hobbies */
+.hobbies {
+    background-color: var(--eerie-black);
+    width: 100%;
+    height: auto;
+}
+
+.hobbies h1 {
+    display: block;
+    text-align: center;
+    color: var(--white);
+    font-family: 'Cooper Hewitt';
+    font-size: 2.4rem;
+    letter-spacing: .1rem;
+    padding: 6rem 0 5rem 0;
+}
+
+.cards_container--hobbies {
+    display: grid;
+    grid-template-columns: 13rem 13rem;
+    grid-template-rows: 14rem 14rem 14rem;
+    gap: 3rem;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.cards--hobbies {
+    background-color: var(--eerie-black);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    filter: saturate(40%);
+    width: 13rem;
+    height: 14rem;
+}
+
+.cards--hobbies img {
+    margin-top: .7rem;
+    width: 9rem;
+}
+
+.cards--hobbies p {
+    color: var(--white);
+    font-family: 'Cooper Hewitt';
+    letter-spacing: .1rem;
+    font-size: 1.4rem;
+    margin-bottom: .7rem;
+}
+
 .cards--contacto {
     color: var(--white);
     font-family: 'Cooper Hewitt';
     letter-spacing: .1rem;
     font-size: 1.4rem;
     margin-bottom: .7rem;
-    background-color: var(--eerie-black);
+    background-color: var(--jet);
     border-radius: 24px;
     display: flex;
     flex-direction: column;
@@ -526,18 +581,6 @@ span+span {
     justify-content: space-between;
 }
 
-.cards--habilidades img {
-    margin-top: .7rem;
-    width: 9rem;
-}
-
-.cards--habilidades p {
-    color: var(--white);
-    font-family: 'Cooper Hewitt';
-    letter-spacing: .1rem;
-    font-size: 1.4rem;
-    margin-bottom: .7rem;
-}
 
 /* Formación */
 
@@ -625,7 +668,7 @@ img.logo-UNR {
 /* Proyectos */
 
 .proyectos {
-    background-color: var(--jet);
+    background-color: var(--eerie-black);
     width: 100%;
     height: auto;
     padding: 0 1rem 1rem 1rem;
@@ -639,11 +682,6 @@ img.logo-UNR {
     font-size: 2.4rem;
     letter-spacing: .1rem;
     padding: 6rem 0 5rem 0;
-}
-
-.puntos1-proyectos,
-.puntos2-proyectos {
-    display: none;
 }
 
 .cards_container--proyectos {
@@ -748,7 +786,7 @@ img.logo-UNR {
 /* Contacto */
 
 .contacto {
-    background-color: var(--eerie-black);
+    background-color: var(--jet);
     width: 100%;
     height: auto;
     padding: 0 2rem 5rem 2rem;

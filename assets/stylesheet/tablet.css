@@ -28,7 +28,7 @@ nav.nav_menu.active {
 }
 
 .home_text-2 {
-    font-size: 3.6rem;
+    font-size: 3rem;
 }
 
 /* Sobre mi */
@@ -67,6 +67,12 @@ nav.nav_menu.active {
 /* Habilidades */
 
 .cards_container--habilidades {
+    column-gap: 4rem;
+}
+
+/* Hobbies */
+
+.cards_container--hobbies {
     column-gap: 4rem;
 }
 

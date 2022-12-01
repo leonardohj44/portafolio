@@ -73,13 +73,13 @@ div.btn {
 }
 
 .home_text-1 {
-    font-size: 3.5rem;
+    font-size: 2rem;
     margin-left: .4rem;
     font-weight: bold;
 }
 
 .home_text-2 {
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: bold;
     color: var(--white);
 }
@@ -198,23 +198,8 @@ div.btn {
     padding-top: 8rem;
 }
 
-.puntos1-habilidades {
-    display: inline;
-    position: absolute;
-    width: 6rem;
-    margin: 15rem 0 0 /* 41rem */ 20%;
-    background-attachment: fixed;
-}
-
-.puntos2-habilidades {
-    display: inline;
-    position: absolute;
-    width: 6rem;
-    margin: 0 0 0 76%;
-}
-
 .cards_container--habilidades {
-    grid-template-columns: 13rem 13rem 13rem 13rem;
+    grid-template-columns: 13rem 13rem 13rem 13rem 13rem 13rem;
     grid-template-rows: 14rem 14rem;
     padding: 0;
     margin-top: 2rem;
@@ -231,6 +216,39 @@ div.btn {
 }
 
 .cards--habilidades p {
+    font-size: 1.6rem;
+    margin-top: .8rem;
+}
+
+/* Hobbies */
+
+.hobbies {
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.hobbies h1 {
+    padding-top: 8rem;
+}
+
+.cards_container--hobbies {
+    grid-template-columns: 13rem 13rem 13rem 13rem;
+    grid-template-rows: 14rem 14rem;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.cards--hobbies {
+    filter: grayscale(1);
+}
+
+.cards--hobbies:hover {
+    filter: grayscale(0);
+    border: 1px solid var(--beaver);
+    transition: all 1s;
+}
+
+.cards--hobbies p {
     font-size: 1.6rem;
     margin-top: .8rem;
 }
@@ -260,21 +278,6 @@ div.btn {
 
 .proyectos h1 {
     padding-top: 8rem;
-}
-
-.puntos1-proyectos {
-    display: inline;
-    position: absolute;
-    width: 6rem;
-    margin: 20rem 0 0  1%;
-    background-attachment: fixed;
-}
-
-.puntos2-proyectos {
-    display: inline;
-    position: absolute;
-    width: 6rem;
-    margin: -3rem 0 0 93%;
 }
 
 .cards_container--proyectos {
